@@ -27,8 +27,6 @@ Copia el texto cifrado 📝 o desencripta un mensaje ingresando el texto cifrado
 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si tienes alguna idea para mejorar esta herramienta o has encontrado algún problema, no dudes en crear un issue o enviar un pull request. 🚀
 
-📄 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
 
 ## 📋 Cómo Usar
 
@@ -40,6 +38,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obten
 3. Haz clic en el botón "Encriptar" 🛡️.
 
 4. Copia el texto cifrado 📝 o desencripta un mensaje ingresando el texto cifrado y haciendo clic en "Desencriptar" 🔓.
+
 
 
 🤝 Contribuciones
