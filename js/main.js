@@ -29,6 +29,7 @@ modalBtn.addEventListener("click", () => {
 
 buttonDecrypt.addEventListener("click", () => {
     if (validation()) {
+    decryptText(textArea.value);
 }
 });
 
