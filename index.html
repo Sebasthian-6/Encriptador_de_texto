@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png.png" type="image/x-icon">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal">
+        <span class="modal-text">Bienvenido al Encriptador de texto!</span>
+        <img src="img/pinguino espia tierno.jfif" alt="pinguino con una lupa" id="pinguino">
+        <div class="modal-percent">0%</div>
+        <button type="button" id="modal-btn" class="btn">Empecemos!</button>
+        <p class="load-text">Cargando...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header-layout">
+        <div class="logo">
+            <a href="#"><img src="img/logo.svg" alt="logo"></a>
+        </div>
+        <div class="header-title">
+            <h1 id="title">Encriptador de texto</h1>
+        </div>
+        <div class="social-networks">
+            <a href="https://github.com/" target="_blank">
+                <img class="logo-github" src="img/icons8-github.gif" alt="logo-github">
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img class="logo-linkend" src="img/icons8-linkedin.gif" alt="logo-linkend">
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="main-layout">
+            <!-- Layout Left -->
+            <section class="layout-left">
+                <textarea class="text-input" name="text-input" id="text" placeholder="Ingrese el texto aquí..."></textarea>
+                <div class="nota">
+                    <img class="icon-alert" src="img/icons8-atención.gif" alt="alert-circle">
+                    <p>Solo letras minúsculas y sin acento</p>
+                </div>
+                <div class="btns">
+                    <button class="btn btn-encrypt">ENCRIPTAR</button>
+                    <button class="btn btn-decrypt">DESENCRIPTAR</button>
+                </div>
+            </section>
+            <!-- Layout View -->
+            <section class="layout-view">
+                <div class="view-result">
+                    <p class="textResult"></p>
+                    <div>
+                        <button class="copy btn">COPIAR</button>
+                    </div>
+                </div>
+                <div class="content-view">
+                    <img src="img/pinguino con lupa-Photoroom.png" alt="Pinguino con lupa" class="imagen-urban">
+                    <p class="view-paragraph-1">Ningún mensaje fue encontrado</p>
+                    <p class="view-paragraph-2">Ingrese el texto que desees encriptar o desencriptar</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">&copy; Desarrollado por Sebasthian Rodriguez Ospina para Alura Latam</p>
+    </footer>
+    
+    <!-- Popup -->
+    <div id="popup" class="popup">
+        <span class="popup-content" id="popupContent"></span>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
